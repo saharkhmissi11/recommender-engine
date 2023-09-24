@@ -1,0 +1,30 @@
+.my-custom-container {
+    text-align: center;
+  }
+.side{
+    background-color: #e0b0f7;
+    height: 490px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+h3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold; /* Adjust the font weight as needed */
+    }
+a{
+    text-decoration: none;
+}
+
+.signup-button {
+    background-color: #aa2de4;
+    color: #fff;
+    border: none;
+    padding: 15px 30px;
+    font-size: 18px;
+    border-radius: 5px;
+    width: 300px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}

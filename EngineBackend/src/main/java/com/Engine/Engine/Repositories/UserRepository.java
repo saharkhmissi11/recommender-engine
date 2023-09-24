@@ -1,0 +1,9 @@
+package com.Engine.Engine.Repositories;
+import com.Engine.Engine.Models.User;
+import org.springframework.data.mongodb.repository.MongoRepository;
+import org.springframework.stereotype.Repository;
+
+@Repository
+public interface UserRepository extends MongoRepository<User,String> {
+
+}
